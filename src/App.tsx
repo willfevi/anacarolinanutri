@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import fotoAna from "./assets/index_nutricionista.png";
+import logo from "./assets/icons/logo.png";
 import { useState, useEffect } from "react";
 
 const WHATSAPP_NUMBER = "5522998997631"; 
@@ -135,7 +136,7 @@ function Navigation() {
       </div>
 
       <a href="#inicio" className="block">
-        <img src="/logo.png" alt="Logo Ana Carolina" className="h-16 w-auto object-contain" />
+        <img src={logo} alt="Logo Ana Carolina" className="h-20 w-auto object-contain" />
       </a>
     </div>
   );
@@ -182,7 +183,7 @@ function Hero() {
         transition={{ duration: 1 }}
         className="relative flex justify-center"
       >
-        <img src={fotoAna} alt="Ana Carolina Gonçalves" />
+         <img src={fotoAna} alt="Ana Carolina Gonçalves" />
       </motion.div>
     </div>
   );
