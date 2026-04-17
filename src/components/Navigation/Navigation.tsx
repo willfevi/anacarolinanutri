@@ -20,7 +20,7 @@ export default function Navigation() {
   }, []);
 
   return (
-    <header ref={headerRef} className="sticky top-0 z-50 bg-[#fbf8fa]/90 backdrop-blur-md">
+    <header ref={headerRef} className="z-50 bg-[#fbf8fa]/90 backdrop-blur-md">
       <div className="flex justify-between items-center px-8 py-6 text-[#3a2230]">
       <div>
         <div className="font-['Playfair_Display'] text-2xl">Ana Carolina Gonçalves</div>
