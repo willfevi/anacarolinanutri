@@ -5,7 +5,7 @@ export default function WhyNutrition() {
 
       <h2 className="font-['Playfair_Display'] text-3xl text-[#3a2230] max-w-2xl mx-auto leading-relaxed mb-6 text-center">De uma hora para outra, tudo muda.</h2>
 
-      <p className="text-[#6b4c5d] max-w-3xl mx-auto mb-8 text-center">De uma hora para outra, tudo muda. O paladar altera, o apetite some e surgem medos sobre o que pode ou não comer. Passar por tudo isso sozinha torna o caminho muito mais pesado. O acompanhamento certo é o que ajuda seu corpo a se sustentar e as escolhas do dia a dia a fazerem sentido.</p>
+      <p className="text-[#6b4c5d] max-w-3xl mx-auto mb-8 text-center">O paladar altera, o apetite some e surgem medos sobre o que pode ou não comer. Passar por tudo isso sozinha torna o caminho muito mais pesado. O acompanhamento certo é o que ajuda seu corpo a se sustentar e as escolhas do dia a dia a fazerem sentido.</p>
 
       <div className="max-w-3xl mx-auto text-center text-[#6b4c5d]">
         <h3 className="font-['Playfair_Display'] text-xl md:text-2xl text-[#3a2230] mb-4">Onde a nutrição faz a diferença:</h3>
@@ -31,7 +31,12 @@ export default function WhyNutrition() {
               <div className="text-[#6b4c5d]">Fadiga extrema, fogachos (calores), ganho de peso indesejado ou perda de peso acelerada.</div>
             </div>
           </div>
-
+          <div className="bg-white rounded-2xl p-5 shadow-md border-l-4 border-[#7f0e48]">
+            <div>
+              <div className="font-semibold text-[#7f0e48]">Recuperação e Longevidade:</div>
+              <div className="text-[#6b4c5d]">Foco no restabelecimento da vitalidade, equilíbrio metabólico, e estratégias nutricionais contínuas para a manutenção da remissão e prevenção de recidivas.</div>
+            </div>
+          </div>
           <div className="bg-white rounded-2xl p-5 shadow-md border-l-4 border-[#7f0e48]">
             <div>
               <div className="font-semibold text-[#7f0e48]">Composição Corporal:</div>

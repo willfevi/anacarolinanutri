@@ -8,12 +8,25 @@ export default function HowItWorks() {
       <h2 className="text-center font-['Playfair_Display'] text-3xl text-[#3a2230] mb-16">Processo estruturado em 3 etapas</h2>
 
       <div className="space-y-20">
-        {["Avaliação Clínica Completa","Plano Nutricional Personalizado","Acompanhamento Contínuo"].map((step, index) => (
+        {[
+          {
+            title: "Mais do que uma dieta, analisamos seu diagnóstico, exames, rotina e como o tratamento está impactando seu corpo hoje.",
+            desc: "",
+          },
+          {
+            title: "Elaboração de uma conduta personalizada e segura, focada em nutrir e proteger seu organismo contra os efeitos colaterais.",
+            desc: "",
+          },
+          {
+            title: "Acompanhamento próximo para ajustes rápidos conforme as fases do tratamento mudam. Você tem amparo em cada passo.",
+            desc: "",
+          },
+        ].map((step, index) => (
           <motion.div key={index} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="grid md:grid-cols-2 gap-10 items-center">
             <div className="space-y-4">
-              <div className="text-5xl text-[#e4d6dd] font-['Playfair_Display']">0{index + 1}</div>
-              <h3 className="font-['Playfair_Display'] text-xl text-[#3a2230]">{step}</h3>
-              <p className="text-[#6b4c5d]">Cada paciente recebe uma conduta específica de acordo com diagnóstico, exames e fase do tratamento.</p>
+              <div className="text-5xl text-[#e4d6dd] font-['Playfair_Display']">{index + 1}</div>
+              <h3 className="font-['Playfair_Display'] text-xl text-[#3a2230]">{index === 0 ? 'Avaliação Clínica Completa' : index === 1 ? 'Plano Nutricional Personalizado' : 'Acompanhamento Contínuo'}</h3>
+              <p className="text-[#6b4c5d] whitespace-pre-line">{step.title}</p>
             </div>
 
             <div className="flex justify-center">
