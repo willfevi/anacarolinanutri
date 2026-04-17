@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import logo from "../../assets/icons/logo.png";
 import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "../../services/whatsapp";
 
