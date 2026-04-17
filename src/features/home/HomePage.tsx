@@ -18,7 +18,7 @@ export default function HomePage() {
         <img src={fotoFundo} alt="" className="w-full h-full object-cover" style={{ filter: 'blur(12px)', opacity: 0.9, transform: 'scale(1.03)' }} />
       </div>
 
-      <div className="w-full max-w-7xl bg-gradient-to-b from-[#fbf8fa] to-[#f6eef3] rounded-[40px] shadow-2xl overflow-hidden border border-[#efe7ec] relative z-10">
+      <div className="w-full max-w-7xl bg-gradient-to-b from-[#fbf8fa] to-[#f6eef3] rounded-[40px] shadow-2xl overflow-clip border border-[#efe7ec] relative z-10">
         <Navigation />
         <Hero />
         <WhyNutrition />

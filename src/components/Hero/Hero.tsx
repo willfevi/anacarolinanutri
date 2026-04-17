@@ -4,7 +4,7 @@ import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "../../services/whatsapp";
 
 export default function Hero() {
   return (
-    <div id="inicio" className="grid md:grid-cols-2 items-center px-8 pt-10 pb-20 gap-10 relative overflow-hidden">
+    <div id="inicio" className="grid md:grid-cols-2 items-center px-8 pt-10 pb-20 gap-10 relative overflow-hidden scroll-mt-36">
       <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
         <h1 className="font-['Playfair_Display'] text-5xl leading-tight text-[#3a2230]">
           Nutrição Oncológica Especializada

@@ -2,7 +2,7 @@
 
 export default function AboutProgram() {
   return (
-    <div id="sobre" className="text-center px-8 py-20 border-t border-[#efe7ec]">
+    <div id="sobre" className="text-center px-8 py-20 border-t border-[#efe7ec] scroll-mt-36">
       <p className="italic text-[#7f0e48] mb-4">Sobre o Atendimento</p>
       <h2 className="font-['Playfair_Display'] text-3xl text-[#3a2230] max-w-2xl mx-auto leading-relaxed">Estratégia nutricional baseada em evidências científicas e cuidado humanizado.</h2>
 

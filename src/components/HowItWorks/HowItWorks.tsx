@@ -3,7 +3,7 @@ import { IconAvaliacao, IconPlano, IconAcompanhamento } from "../Icons/Icons";
 
 export default function HowItWorks() {
   return (
-    <div id="programa" className="px-8 py-20 bg-gradient-to-b from-[#f7f2f5] to-[#efe4ea]">
+    <div id="programa" className="px-8 py-20 bg-gradient-to-b from-[#f7f2f5] to-[#efe4ea] scroll-mt-36">
       <p className="text-center italic text-[#7f0e48] mb-6">Como Funciona</p>
       <h2 className="text-center font-['Playfair_Display'] text-3xl text-[#3a2230] mb-16">Processo estruturado em 3 etapas</h2>
 
